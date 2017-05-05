@@ -9,6 +9,6 @@ permalink: /
 <h1>WALLETH</h1>
 <img src="assets/img/icon.png"/>
 <br/>
-<img src="assets/img/play_badge.png"/>
+<a href="https://play.google.com/store/apps/details?id=org.walleth"><img src="assets/img/play_badge.png"/></a>
 </center>
 
