@@ -1,7 +1,7 @@
 ---
 layout: default
 class: home
-title: WALLΞTH
+title: WALLΞTH - The native Ethereum Android light client wallet
 permalink: /
 ---
 <br/><br/>
