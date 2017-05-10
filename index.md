@@ -1,7 +1,7 @@
 ---
 layout: default
 class: home
-title: WALLΞTH - The native Ethereum Android light client wallet
+title: WALLETH - The native Ethereum Android light client wallet
 permalink: /
 ---
 <br/><br/>
@@ -12,3 +12,4 @@ permalink: /
 <a href="https://play.google.com/store/apps/details?id=org.walleth"><img src="assets/img/play_badge.png"/></a>
 </center>
 
+<a href="news">News</a>
