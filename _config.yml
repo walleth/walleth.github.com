@@ -17,7 +17,7 @@ reddit_username: walleth
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"http://ligi.de\">ligi</a> - theme by <a href=\"https://github.com/jacobtomlinson//carte-noire\">carte noire by Jacob Tomlinson</a>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"http://ligi.de\">ligi</a> - theme: <a href=\"https://github.com/jacobtomlinson//carte-noire\">carte noire by Jacob Tomlinson</a>"
 footer_right: "source on <a href=\"https://github.com/walleth\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
