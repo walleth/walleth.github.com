@@ -4,6 +4,7 @@ layout: default
 permalink: /news/
 ---
 
+<div style="padding-left:5%;padding-right:5%">
 <ul>
   {% for post in site.posts %}
   <li>
@@ -14,4 +15,4 @@ permalink: /news/
   </li>
   {% endfor %}
 </ul>
-
+</div>
