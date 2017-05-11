@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 image: assets/img/icon.png
 ---
 

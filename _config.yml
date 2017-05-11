@@ -1,32 +1,31 @@
----
-title: WALLΞTH
-description: The native Android Ethereum light client wallet
-relative_permalinks: false
+# Site settings
+title: "WALLETH - Android Ethereum wallet"
+email: ligi@ligi.de
+description: "WALLETH - the native Ethereum Android light client wallet"
+baseurl: ""
+url: "http://walleth.org/"
+title_description: "WALLETH is the native Ethereum Android light client wallet,"
+#google_analytics: "UA-20365477-4"
+github_repository: https://github.com/walleth
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+github_username:  walleth
+instagram_username: 
+reddit_username: walleth
+facebook_link:
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"http://ligi.de\">ligi</a> - theme by <a href=\"https://github.com/jacobtomlinson//carte-noire\">carte noire by Jacob Tomlinson</a>"
+footer_right: "source on <a href=\"https://github.com/walleth\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
 markdown: kramdown
-url: "http://walleth.org"
 
-exclude:
-  - CNAME
-  - CONTRIBUTING.md
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - Rakefile
-  - README.md
-  - script
-  - vendor/bundle
-  - test
-  - tests
-  - assets/vendor/selectivizr/tests
-  - assets/vendor/clipboard/test
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-gems:
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
-sass:
-    sass_dir: _sass
-    style: :compressed
-
-
+permalink: pretty
+exclude: [vendor]
