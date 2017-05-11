@@ -27,5 +27,8 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+gems:
+  - jekyll-seo-tag
+
 permalink: pretty
 exclude: [vendor]
