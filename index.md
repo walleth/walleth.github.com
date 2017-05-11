@@ -10,6 +10,9 @@ permalink: /
 <img src="assets/img/icon.png"/>
 <br/>
 <a href="https://play.google.com/store/apps/details?id=org.walleth"><img src="assets/img/play_badge.png"/></a>
+<br/><br/><br/>
+<a href="news">News</a><br/>
+<a href="https://www.reddit.com/r/walleth">Reddit</a><br/>
 </center>
 
-<a href="news">News</a>
+
