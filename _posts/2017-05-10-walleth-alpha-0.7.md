@@ -1,6 +1,7 @@
 ---
 layout: post
 image: assets/img/icon.png
+title: WALLΞTH 0.7 Alpha
 ---
 
 Version 0.7 alpha attacks mainly the initial sync problems. I saw a lot of users had crashes there. Some of the errors I saw where reported upstream to the go-team. Some now even have <a href="https://github.com/golang/go/issues/20259">milestones attached</a>. Unfortunately it happened really often in the initial sync with the chain on some devices. These problems are not solved yet but I could gather some more information about them and found a way to mitigate the problem a bit. The crashes only happen when you have to import a lot of headers like with the initial sync. You will not see it that often once you had a full sync and update regularly. For the initial sync I added a watchdog that restarts the app once this happens. I did not find a way to get geth in a working state again once these crashes happened. Also I added a debug screen where you can see the error log:
