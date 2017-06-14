@@ -1,7 +1,7 @@
 ---
 layout: post
 image: assets/img/icon.png
-title: Offline transactions
+title: Offline transactions / Hardware WALLΞTH
 ---
 
 WALLETH 0.14 is about "offline transactions". This is a security feature - a bit like a hardware wallet.
