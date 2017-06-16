@@ -17,3 +17,5 @@ To give you something to watch until then - this is a talk from the great <a hre
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/osVpqz10UP8" frameborder="0" allowfullscreen></iframe>
 </center>
+
+PS: here is the [FDroid MR](https://gitlab.com/fdroid/fdroidserver/merge_requests/275) I referenced in Q/A.
