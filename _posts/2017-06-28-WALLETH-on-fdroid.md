@@ -4,7 +4,7 @@ image: assets/img/icon.png
 title:  WALLΞTH available on FDroid
 ---
 
-The flavor for FDroid was available since the beginning. I love the concept of a store that only contains libre apps and 14 other apps of mine are already available there (e.g. have a look at [PassAndroid](https://github.com/ligi/PassAndroid) or the [Offline SurvivalManaual](https://github.com/ligi/SurvivalManual)) But the release to FDroid took a while for WALLETH. The reason was that WALLETH already depends on the google maven repository which was just accepted by FDroid recently (with [MR #275](https://gitlab.com/fdroid/fdroidserver/merge_requests/275)). I want to use the new architecture components like Room, LiveData and the ViewModel - and they only exist in this new repository.
+The flavor for FDroid was available since the beginning. I love the concept of a store that only contains libre apps and 14 other apps of mine are already available there (e.g. have a look at [PassAndroid](https://github.com/ligi/PassAndroid) or the [Offline SurvivalManual](https://github.com/ligi/SurvivalManual)) But the release to FDroid took a while for WALLETH. The reason was that WALLETH already depends on the google maven repository which was just accepted by FDroid recently (with [MR #275](https://gitlab.com/fdroid/fdroidserver/merge_requests/275)). I want to use the new architecture components like Room, LiveData and the ViewModel - and they only exist in this new repository.
 
 [![on FDroid](http://ligi.de/img/fdroid_badge.png)](https://f-droid.org/repository/browse/?fdid=org.walleth)
 
