@@ -19,3 +19,5 @@ Would also like to try out ERC-20 tokens on the main net - so if you have some: 
 In other WALLETH news: I recently implemented EIP55 checksums in [ketherum](https://github.com/walleth/kethereum). And implemented the usage of it for creating addresses in WALLETH (via generating a key or reading from <a href="https://TREZOR.io">TREZOR</a>). For implementing EIP55 I needed a keccak implementation and so there is now a [pure kotlin implementation now](https://github.com/walleth/keccak).
 
 But I still love rinkeby - and remember- it is [not a "no go zone"](https://www.somalispot.com/threads/rinkeby-is-not-a-no-go-zone-song.23723/) ;-)
+
+PS: before releasing a version enabling the main-net I want to wait for [this PR](https://github.com/ethereum/go-ethereum/pull/14817) to arrive upstream so you are EIP155 replay protected on the main-net.
