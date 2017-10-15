@@ -9,7 +9,7 @@ It was a bit quite here the last 2 months - but unfortunately I had to work on o
  * Network switching (inclusive main-net:-)
  * Byzantium changes (Contains geth 1.7.1)
 
-Please note even though this version only includes geth 1.7.1 there should be no problem. The most recent 1.7.2 is only important for full-nodes. I still would love to include 1.7.2 (also as it includes https://github.com/ethereum/go-ethereum/pull/15233)
+Please note even though this version only includes geth 1.7.1 there should be no problem. The most recent 1.7.2 is only important for full-nodes. I still would love to include 1.7.2 (also as it includes [#15233]( https://github.com/ethereum/go-ethereum/pull/15233))
 Unfortunately gomobile was recently updated and builds for the go-ethereum android library started failing on Friday the 13th :-(
 
 There are also a lot of small detail changes in this version. E.g. you can now clearly see watch-only accounts. Also the last used account is now remembered.
