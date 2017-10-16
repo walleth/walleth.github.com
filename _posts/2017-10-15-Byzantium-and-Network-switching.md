@@ -4,7 +4,7 @@ image: assets/img/icon.png
 title: Byzantium & Network switching
 ---
 
-It was a bit quite here the last 2 months - but unfortunately I had to work on one commercial project to pay some bills. But now I have time again to push WALLETH forward - and I was just pushing it over 2 bumps:
+It was a bit quiet here the last 2 months - but unfortunately I had to work on one commercial project to pay some bills. But now I have time again to push WALLETH forward - and I was just pushing it over 2 bumps:
 
  * Network switching (inclusive main-net:-)
  * Byzantium changes (Contains geth 1.7.1)
