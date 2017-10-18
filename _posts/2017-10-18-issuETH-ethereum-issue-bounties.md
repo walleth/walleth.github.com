@@ -6,7 +6,7 @@ title: issuETH - the GitHub app for issue bounties
 
 # Motivation
 
-I really liked the idea of [commiteth](https://commiteth.com/) and wanted to use it for my projects - but had a [problem with the permission model.](https://github.com/status-im/commiteth/issues/56)
+I really liked the idea of [commiteth](https://commiteth.com/) and wanted to use it for WALLETH and other projects - but had a [problem with the permission model of commiteth](https://github.com/status-im/commiteth/issues/56).
 
 ![](/assets/img/news/commiteth_permissions.png)
 
