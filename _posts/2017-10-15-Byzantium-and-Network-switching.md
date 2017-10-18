@@ -4,7 +4,7 @@ image: assets/img/icon.png
 title: Byzantium & Network switching
 ---
 
-It was a bit quite here the last 2 months - but unfortunately I had to work on one commercial project to pay some bills. But now I have time again to push WALLETH forward - and I was just pushing it over 2 bumps:
+It was a bit quiet here the last 2 months - but unfortunately I had to work on one commercial project to pay some bills. But now I have time again to push WALLETH forward - and I was just pushing it over 2 bumps:
 
  * Network switching (inclusive main-net:-)
  * Byzantium changes (Contains geth 1.7.1)
@@ -26,4 +26,4 @@ There are also a lot of changes under the hood. WALLETH now uses the [architectu
 
 Also Kotlins co-routines are used now. They are still in experimental stage. But a talk at DroidCon Berlin this year convinced me to already use them as JetBrains stated it is only declared experimental so they can change the API - but it is already stable.
 
-Please note that although this version now contains main-net support - it is still in alpha. Please use it with small amounts and low-importance accounts for now. And Ideally use it together with a Hardware-Wallet like the the [TREZOR](http://walleth.org/2017/07/14/0.17-TREZOR-AND-MORE/)
+Please note that although this version now contains main-net support - it is still in alpha. Please use it with small amounts and low-importance accounts for now. Ideally, you would use it together with a Hardware-Wallet like the the [TREZOR](http://walleth.org/2017/07/14/0.17-TREZOR-AND-MORE/)
