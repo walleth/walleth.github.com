@@ -35,7 +35,7 @@ The token-definitions are from: [https://github.com/MyEtherWallet/ethereum-lists
 
 # The crux
 
-Now the crux: how to get the value to the beneficiary. I do not want or cab pay transaction fees for all projects that use this app. Also it is not trivial to always be sure to transfer all possible value from different networks with different tokens.
+Now the crux: how to get the value to the beneficiary. I do not want or can pay the transaction fees for all projects that use this app. Also it is not trivial to always be sure to transfer all possible value from different networks with different tokens.
 
 So what issuETH is doing for now is to hand over the private key to the account that was created by issuETH for this issue to the current assigned user at the point of closing the issue. As I found no way to contact the user with the github API (perhaps this is a good thing :) the solution is to encrypt the private key with the PGP key of the user and answer publicly on the issue.
 
