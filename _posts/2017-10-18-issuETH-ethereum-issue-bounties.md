@@ -46,3 +46,5 @@ Sure this is more hands-on than one would like - but I think it is perfectly fin
 Currently you only get notifications for the Rinkeby network. The geth node to serve the chain-watcher is still syncing. But once this is finished it will also serve WALLETH for the fcm-push option (this was also only active for Rinkeby for now).
 
 I would be happy about feedback. Please try it out (not yet with huge amounts please). If you find issues please let me know.
+
+You can find the [source-code here](https://github.com/issuETH/issuETH). This project also has some enhancement issues open with issuETH bounties attached for dogfooding,PoC and inception.
