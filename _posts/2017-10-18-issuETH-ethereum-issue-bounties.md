@@ -8,10 +8,9 @@ I really liked the idea of [commiteth](https://commiteth.com/) and wanted to use
 
 ![](/assets/img/news/commiteth_permissions.png)
 
-I am not brave enough to give a 3rd party these permissions to my Github account. Unfortunately fixing this is not a trivial change to this project as the fix is to use github-apps and not the old oauth-flow. You can get more details about this problem in a [video of the recent Github Universe 2017](https://www.youtube.com/watch?v=PpFaKCzKsYA)
+I am not brave enough to give a 3rd party these permissions to my Github account. Unfortunately fixing this is not a simple change to this project that I could just fix via a PR. The fix is to use github-apps and not the old oauth-flow. You can get more details about this problem in a [video of the recent GitHub Satellite 2017](https://www.youtube.com/watch?v=PpFaKCzKsYA)
 
-I figured to get faster to where I wanted to go: it is better to create a project from scratch. So issuETH was born. As it is a github-app - you can easily enable it for your projects. You can install it by going to [https://github.com/apps/issuETH](https://github.com/apps/issuETH)
-
+I figured to get faster to where I wanted to go: it is better to create a project from scratch. So issuETH was born. As it is a github-app - you can easily enable it for your projects. To install it please go to [https://github.com/apps/issuETH](https://github.com/apps/issuETH)
 
 ![](/assets/img/news/issueth_install.png)
 
@@ -19,7 +18,7 @@ It requires very little permissions:
 
 ![](/assets/img/news/issueth_permissions.png)
 
-Basically you just interact via issues with this bot. If you attach a label with the text "bounty" to any issue on some repository that has issuETH enabled: then issuETH will generate a keypair and comment on the issue with an [ERC-67](https://github.com/ethereum/EIPs/issues/67) QR-Code.
+Basically you just interact with this bot via issues. If you attach a label with the text "bounty" to any issue on some repository that has issuETH enabled: then issuETH will generate a keypair and comment on the issue with an [ERC-67](https://github.com/ethereum/EIPs/issues/67) QR-Code.
 
 ![](/assets/img/news/issueth_erc67.png)
 
