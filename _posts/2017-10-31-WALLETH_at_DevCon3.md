@@ -11,7 +11,7 @@ I am just writing this sitting in my last connection flight (3/3) to Cancún in 
 
 I also hope we can get a [working-group to formalize URLs/QR-codes](https://github.com/ethereum/EIPs/pull/681#issuecomment-340258656) for ethereum together. Currently this is a bit of a wild-west and we need some formalized standard to improve interoperability. DevCon3 is a great place to get this going as a lot of Ethereum-Wallet developers will be there.
 
-For DevCon3 I am releasing WALLETH 0.22 which does not come with new features, but some fixes and polising. Was just making some finishing touches in the hostel.
+For DevCon3 I am releasing WALLETH 0.23 which does not come with new features, but some fixes and polising. Was just making some finishing touches in the hostel.
 
 ![](/assets/img/news/cancun_hostel.jpg)
 
