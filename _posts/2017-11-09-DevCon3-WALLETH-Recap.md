@@ -35,3 +35,5 @@ Here is the stream from the WALLETH introduction in the main hall:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8sXzxkODH-c?start=1182" frameborder="0" allowfullscreen></iframe>
 
 The WALLETH session in the breakout-room was also recorded but not streamed :-( And only the streamed recordings are available so far.
+
+![](/assets/img/news/walleth_deepdive.jpg)
