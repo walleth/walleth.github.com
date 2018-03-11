@@ -1,0 +1,19 @@
+---
+layout: post
+image: assets/img/news/4bytebot.png
+title: 0.34 Trezor Model T compatibility
+---
+
+Version 0.34 of WallETH can now be used with the new [TREZOR](https://shop.trezor.io) Model T. Be aware that as awesome as the device is - there are still some rough edges in the the Ethereum side of things. Nothing really critical as far as I see so far. Only display problems like [#154](https://github.com/trezor/trezor-core/issues/154) or  [#155](https://github.com/trezor/trezor-core/issues/155). Both fixed in code - but the firmware is not yet rolled out.
+
+![](/assets/img/news/confirm_send_trezort.jpg)
+
+But the TREZOR T opens up even more possibilities in the future. Really hope [signing the WallETH apk](https://github.com/walleth/walleth/issues/143) will become reality in the future. Google also just gave this an upgrade path [with signature scheme v3.](https://developer.android.com/preview/features/security-behav.html). And the bigger screen plus the better developer experience can help us better understand what we sign in the future.
+
+![](/assets/img/news/walleth_model_t_tx.jpg)
+
+I think hardware wallets can play one important role in bringing good UX **with** good security to the space. The model T is a step in the right direction. Especially for mobile. The USB-C connection can remove the need for adapters and frustration with the asymmetry of things in the future. Also happy with the touchscreen - especially the "touch to transact" user experience.
+
+Also I really like that the [TREZOR](https://shop.trezor.io) uses [ethereum-lists](https://github.com/ethereum-lists/tokens) in the intended way of fetching the processed lists via IPFS (as a build-script-step of course - the [TREZOR T](https://preorder.trezor.io) does not have [IPFS](https://ipfs.io) connectivity now :)
+
+0.34 was just uploaded to the play-store. The tag is also set so the pipeline for the f-droid version is started - but sometimes this can take some time currently. But this is out of my control. We really need to decentralize appstores in the future - having a lot of ideas in this direction - but other stuff that needs to be done before ..-)
