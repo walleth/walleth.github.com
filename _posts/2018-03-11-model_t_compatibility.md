@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/img/news/4bytebot.png
+image: assets/img/icon.png
 title: 0.34 Trezor Model T compatibility
 ---
 
