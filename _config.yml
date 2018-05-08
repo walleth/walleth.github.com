@@ -3,7 +3,7 @@ title: "WALLETH - Android Ethereum wallet"
 email: ligi@ligi.de
 description: "WALLETH - the native Ethereum Android light client wallet"
 baseurl: ""
-url: "http://walleth.org/"
+url: "https://walleth.org"
 title_description: "WALLETH is the native Ethereum Android light client wallet,"
 #google_analytics: "UA-20365477-4"
 github_repository: https://github.com/walleth

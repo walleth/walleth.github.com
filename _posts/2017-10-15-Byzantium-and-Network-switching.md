@@ -26,4 +26,4 @@ There are also a lot of changes under the hood. WALLETH now uses the [architectu
 
 Also Kotlins co-routines are used now. They are still in experimental stage. But a talk at DroidCon Berlin this year convinced me to already use them as JetBrains stated it is only declared experimental so they can change the API - but it is already stable.
 
-Please note that although this version now contains main-net support - it is still in alpha. Please use it with small amounts and low-importance accounts for now. Ideally, you would use it together with a Hardware-Wallet like the the [TREZOR](http://walleth.org/2017/07/14/0.17-TREZOR-AND-MORE/)
+Please note that although this version now contains main-net support - it is still in alpha. Please use it with small amounts and low-importance accounts for now. Ideally, you would use it together with a Hardware-Wallet like the the [TREZOR](https://walleth.org/2017/07/14/0.17-TREZOR-AND-MORE/)
