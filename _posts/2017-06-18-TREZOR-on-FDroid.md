@@ -12,4 +12,4 @@ The TREZOR Manager [is now on FDroid!](https://f-droid.org/repository/browse/?fd
  [![](/assets/img/news/trezor_issues.png)](https://github.com/trezor/trezor-android/issues?q=is%3Aissue+author%3Aligi+is%3Aclosed)
 
 Also WALLETH on FDroid is now coming closer as [#275](https://gitlab.com/fdroid/fdroidserver/merge_requests/275) is merged and [#2329](https://gitlab.com/fdroid/fdroiddata/merge_requests/2329) is opened ;-)
-If you want to get a TREZOR - it would be nice to use [this link](https://shop.trezor.io?a=walleth.org)
+If you want to get a TREZOR - it would be nice to use [this link](https://trezor.io/?a=walleth.org)
