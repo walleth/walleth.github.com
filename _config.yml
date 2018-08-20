@@ -1,7 +1,7 @@
 # Site settings
-title: "WALLETH - Android Ethereum wallet"
+title: "WallETH - Android Ethereum wallet"
 email: ligi@ligi.de
-description: "WALLETH - the native Ethereum Android light client wallet"
+description: "WallETH - the native Ethereum Android light client wallet"
 baseurl: ""
 url: "https://walleth.org"
 title_description: "WALLETH is the native Ethereum Android light client wallet,"
