@@ -1,55 +1,450 @@
----
-layout: default
-make-smaller-titles: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>WallETH</title>
+
+	<!-- meta -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Oxygen:400,300,700' rel='stylesheet'>
+
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+</head>
+<body id="home">
+
+	<!-- ****************************** Preloader ************************** -->
+
+	<div id="preloader"></div>
+
+	<!-- ****************************** Sidebar ************************** -->
+
+	<nav id="sidebar-wrapper">
+		<a id="menu-close" href="#" class="close-btn toggle"><i class="ion-ios-close-empty"></i></a>
+	    <ul class="sidebar-nav">
+		    <li><a href="#home">Home</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#team">Team</a></li>
+			<li><a href="#testimonial">Reviews</a></li>
+	    </ul>
+	</nav>
+
+	<!-- ****************************** Header ************************** -->
+
+	<header class="sticky" id="header">
+		<section class="container">
+			<section class="row" id="logo_menu">
+				<section class="col-xs-8"><a class="logo" href="">WallΞTH</a></section>
+				<section class="col-xs-4"><a id="menu-toggle" href="#" class="toggle wow rotateIn" data-wow-delay="1s"><i class="ion-navicon"></i></a></section>
+			</section>
+		</section>
+	</header>
+
+	<!-- ****************************** Banner ************************** -->
 
 
-<div class="container-fluid index">
-    <div class="row">
+	<section id="banner" >
+		<section class="container">
+			<a class="slidedown wow animated zoomIn" data-wow-delay="2s" href="#features"><i class="ion-ios-download-outline"></i></a>
+			<section class="row">
+				<div class="col-md-6">
+				  <div class="headings">
+				    <img  class="wow animated fadeInDown logo_icon" src="https://walleth.org/assets/img/icon.png"/>
+						<h1 class="wow animated fadeInDown">Your native Ethereum Wallet</h1>
+						<p class="wow animated fadeInLeft">100% open source (GPLv3) and native Android Ethereum Wallet for your service since 2017. Connect to your favorite Ethereum Applications via WalletConnect. Use it directly with hardware wallets like the TREZOR via USB or the KeyCard via NFC. Also has watch-only accounts. Featuring a dark mode to be easy on your eyes.</p>
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 col-md-5">
+							  <div>
+    								  <a href="https://f-droid.org/repository/browse/?fdid=org.walleth" class="polo-btn2 store wow animated bounceInUp"><img src="assets/img/fdroid_badge.png"/></a>					
 
-        <div class="col-md-12 main content-panel">
+								</div>
+							</div>
 
-            <div class="gravatar">
-                <img src="assets/img/icon.png" class="about-image" height="150" width="150" alt="{{ site.title }}" />
-            </div>
+							<div class="col-xs-6 col-sm-6 col-md-5">
+								<div>
+								  <a href="https://play.google.com/store/apps/details?id=org.walleth" class="polo-btn2 store wow animated bounceInUp"><img src="assets/img/play_badge.png"/></a>					
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 hidden-xs hidden-sm">
+					<div class="hand-container">
+					<img class="iphone-hand img_res wow animated bounceInUp" data-wow-duration="1.2s" src="assets/img/iphone_hand.png"></img>
+					<div class="clearfix"></div>
+					</div>
+				</div>
+			</section>
+		</section>
+	</section>
 
-            <h1 class="header author-header" itemprop="headline">WallΞTH</h1>
+	<!-- ****************************** Features Section ************************** -->
 
-            <div class="author-text">
-              native Ethereum Android wallet
-            </div>
+	<section id="features" class="block">
+		<section class="container">
+			<section class="row">
+				<div class="title-box"><h1 class="block-title wow animated rollIn">
+				<span class="bb-top-left"></span>
+				<span class="bb-bottom-left"></span>
+				Features
+				<span class="bb-top-right"></span>
+				<span class="bb-bottom-right"></span>
+				</h1></div>
+			</section>
+			
+			<section class="row">
+			  
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+		                       <img src="assets/img/walletconnect.jpg" style="width:128px"/>
+						<h2>WalletConnect</h2>
+						<p>Connect Dapps via <a href="https://walletconnect.org">WalletConnect</a>. Either desktop apps via QR code or mobile apps via direct link. </p>
+					</div>
+				</div>
 
-	    <div style="padding-top:48px"><center>
-		<a href="https://play.google.com/store/apps/details?id=org.walleth"><img src="/assets/img/play_badge.png"/></a><br/><br/>
-		<a href="https://f-droid.org/repository/browse/?fdid=org.walleth"><img src="/assets/img/fdroid_badge.png"/></a><br/><br/>
-		<a href="/media"><img src="/assets/img/yt_logo_rgb_dark.png"/></a><br/>
-	    </center></div>
-            {% include social_links.html %}
-<center><a href="https://riot.im/app/#/room/#walleth:matrix.org"><img src="/assets/img/matrix_logo.png"/></a><br/><br/></center>
-          </div>
-          <div class="col-md-12 main content-panel">
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+		                       <img src="assets/img/sourcify.jpeg" style="width:128px"/>
+						<h2>Sourcify</h2>
+						<p>See what you sign with our <a href="https://sourcify.dev">Sourcify</a> Integration.</p>
+					</div>
+				</div>
 
-            <div class="articles">
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+		                       <img src="assets/img/github.png" style="width:128px"/>
+						<h2>Libre</h2>
+						<p>Find <b>the full</b> code <a href="https://github.com/walleth">on our github organisation</a>. We do not claim to be open source but only publish part of the source code like other wallets.</p>
+					</div>
+				</div>
 
-              <h2>Latest Articles</h2>
+				
+				
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+    				                <img src="assets/img/eye.png" style="width:128px"/>
+						<h2>Watch Only Accounts</h2>
+						<p>Use this app even if you do not trust your phone with watch only accounts.</p>
+					</div>
+				</div>
 
-              <ul>
-                  {% for post in site.posts limit: site.post_limit %}
+				
+				<div class="col-sm-6 col-md-4">
+					<div class="feature-box wow animated flipInX" data-wow-delay="0.6s">
+		                       <img src="assets/img/nfc.png" style="width:128px"/>
+						<h2>KeyCard</h2>
+						<p>Use your <a href="https://status.im/keycard/">Status.im KeyCard</a> via NFC.</p>
+					</div>
+				</div>				
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+				                <img src="assets/img/trezor-wallet.png" style="width:128px"/>
+				                
+						<h2>TREZOR</h2>
+						<p>Connect your <a href="https://trezor.io">TREZOR</a> model T or model one via USB to your phone.</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+				                <img src="assets/img/ethlists.png" style="width:128px"/>
+				                
+						<h2>Ethereum-Lists</h2>
+						<p>Over 100 Chains, 2000 Tokens and 180000 4byte signatures via <a href="https://github.com/ethereum-lists">ethereum-lists</a> where you can also submit yours!</p>
+					</div>
+				</div>
 
-                      <li>
-                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-                      </li>
+				
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+				                <img src="assets/img/daynight.png" style="width:128px"/>
+				                
+						<h2>Dark and Light theme</h2>
+						<p>Don't hurt your eyes at night and get good readability at day with our light and dark themes.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+				  <div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+		                       <img src="assets/img/dappnode.png" style="width:128px"/>
+						<h2>DappNode</h2>
+						<p>Easily connect to your (or your friends) <a href="https://dappnode.io">DappNode.</a> Using your own node helps your privacy and is more decentralized than other solutions.</p>
+					</div>
+				</div>
+				
+			</section>
+			<div class="clearfix"></div>
+		</section>
+	</section>
 
-                  {% endfor %}
-                  <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
-                  </li>
-              </ul>
+	<!-- ****************************** Gallery Section ************************** -->
 
-            </div>
+	<section id="gallery" class="block">
+		<section class="container">
+			<section class="row">
+				<div class="title-box" style="color:#fff;"><h1 class="block-title wow animated rollIn">
+				<span class="bb-top-left" style="border-color: #fff; "></span>
+				<span class="bb-bottom-left" style="border-color: #fff; "></span>
+				Gallery
+				<span class="bb-top-right" style="border-color: #fff; "></span>
+				<span class="bb-bottom-right" style="border-color: #fff; "></span>
+				</h1></div>
+			</section>
+			<section class="row">
+				<div class="col-xs-12">
+					<div id="screenshots" class="owl-carousel owl-theme">
+					  <div class="item"><img src="assets/img/screenshot-1.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-2.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-3.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-4.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-5.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-6.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-7.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-3.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-5.png" class="img_res wow animated zoomIn"></div>
+					  <div class="item"><img src="assets/img/screenshot-1.png" class="img_res wow animated zoomIn"></div>
+					</div>
+					 <div class="customNavigation">
+					  <a class="btn prev gallery-nav wow animated bounceInLeft"><i class="ion-ios-arrow-left"></i></a> 
+					  <a class="btn next gallery-nav wow animated bounceInRight"><i class="ion-ios-arrow-right"></i></a>
+					</div>
+				</div>
+			</section>
+		</section>
+	</section>
 
-        </div>
+	<!-- ****************************** Team Section ************************** -->
 
-    </div>
-</div>
+	<section id="team" class="block">
+		<section class="container">
+			<section class="row">
+				<div class="col-md-12">
+					<div class="title-box">
+						<h1 class="block-title wow animated rollIn">
+							<span class="bb-top-left"></span>
+							<span class="bb-bottom-left"></span>
+							Team
+							<span class="bb-top-right"></span>
+							<span class="bb-bottom-right"></span>
+						</h1>
+					</div>
+				</div>
+			</section>
+			<section class="row">
+				<section class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/ligi.jpg" class="img_res team-pic">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">LIGI</h2>
+						<p class="wow animated fadeIn" data-wow-delay=="0.7s">Developer since beeing a teenager. Focused on mobile apps - started with J2ME - then moved to Android before it's release. Open sourcing code when ever possible.</p>
+						<ul class="team-social">
+							<li class="wow animated fadeInRight github"><a href="https://github.com/ligi"><i class="ion-social-github"></i></a></li>
+							<li class="wow animated fadeInRight twitter"><a href="https://twitter.com/mr_ligi"><i class="ion-social-twitter-outline"></i></a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/michael.jpg" class="img_res team-pic">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Michael Cook</h2>
+						<p class="wow animated fadeIn" data-wow-delay=="0.7s">The best material icon designer provided us with our nice icon. See more of his work on his website: <a href="https://cookicons.co">cookicons.co</a>. He also gives talks on how to create material icons.</p>
+						<ul class="team-social">
+							<li class="wow animated fadeInRight twitter"><a href="https://twitter.com/mcookie"><i class="ion-social-twitter-outline"></i></a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/friedger.jpeg" class="img_res team-pic">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Friedger Müffke</h2>
+						<p class="wow animated fadeIn" data-wow-delay=="0.7s">Android developer since the first days. Founder of OpenIntents and Droidcon as well as Android developer communities.<br/><br/></p>
+						<ul class="team-social">
+ 							<li class="wow animated fadeInRight github"><a href="https://github.com/friedger"><i class="ion-social-github"></i></a></li>
+							<li class="wow animated fadeInRight twitter"><a href="https://twitter.com/fmdroid"><i class="ion-social-twitter-outline"></i></a></li>
+						</ul>
+					</div>
+				</section>
+
+				
+				<section class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/mirror.png" class="img_res team-pic">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">You</h2>
+						<p class="wow animated fadeIn" data-wow-delay=="0.7s">Join us on our mission to create a <b>really free</b> wallet. There are many ways to contribute: Feedback, PullRequests, Outreach, Graphics, ..</p>
+
+					</div>
+				</section>
+
+			</section>
+
+		</section>
+	</section>
+
+	<!-- ****************************** Testimonial ************************** -->
+
+	<section id="testimonial" class="block">
+		<section class="container">
+			<section class="row">
+				<div class="title-box"><h1 class="block-title wow animated rollIn">
+				<span class="bb-top-left"></span>
+				<span class="bb-bottom-left"></span>
+				Reviews
+				<span class="bb-top-right"></span>
+				<span class="bb-bottom-right"></span>
+				</h1></div>
+			</section>
+		</section>
+		<section class="container">
+			<section class="row">
+				<section class="col-xs-12">
+				  <div id="review" class="owl-carousel owl-theme">
+				    
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-4 col-sm-offset-1">
+									<div class="client-pic"><img class="img_res" src="assets/img/luke.png"></div>
+									<p class="review-star">
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+									</p>
+								</div>
+								<div class="col-sm-6">
+								  <p class="review-desc">
+								    Awesome how it supports multiple chains and tokens including dai (handy for purchasing beers at c-base)
+									</p>
+									<p class="client-name">
+										Luke Schoen
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-4 col-sm-offset-1">
+									<div class="client-pic"><img class="img_res" src="assets/img/chuck.png"></div>
+									<p class="review-star">
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+									</p>
+								</div>
+								<div class="col-sm-6">
+								  <p class="review-desc">
+								    Excellent, simple, no-nonsense, non-custodial Ethereum client wallet. It's stable, well-built open source software that protects your freedom.
+									</p>
+									<p class="client-name">
+										Chuck LeDuc Díaz
+									</p>
+								</div>
+							</div>
+						</div>						<div class="item">
+							<div class="row">
+								<div class="col-sm-4 col-sm-offset-1">
+									<div class="client-pic"><img class="img_res" src="assets/img/erik.png"></div>
+									<p class="review-star">
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star-outline"></i>
+									</p>
+								</div>
+								<div class="col-sm-6">
+								  <p class="review-desc">
+								    Updated and great app. Thanks for all your work over the years to keep this project going.
+									</p>
+									<p class="client-name">
+										Erik Stenquist
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-4 col-sm-offset-1">
+									<div class="client-pic"><img class="img_res" src="assets/img/ramogi.png"></div> 
+									<p class="review-star">
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+										<i class="ion-ios-star"></i>
+									</p>
+								</div>
+								<div class="col-sm-6">
+								  <p class="review-desc">
+								    Great work. Was thinking of creating an ethereum wallet of my own but I'd rather contribute to the development of this
+									</p>
+									<p class="client-name">
+										Ramogi Ochola
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+		</section>
+	</section>
+
+
+
+		<!-- ****************************** Footer ************************** -->
+
+		<section id="footer">
+			<section class="container">
+				<section class="row">
+					<div class="col-sm-6">
+						<span>Theme By</span>
+						<h1 class="footer-logo">
+							<a href="https://themewagon.com/">ThemeWagon</a>
+						</h1>
+						<span>Backgrounds By</span>
+						<h1 class="footer-logo">
+							<a href="https://nasa.gov">NASA</a>
+						</h1>
+					</div>
+
+
+					<div class="col-sm-6">
+						<p class="copyright">&copy;opyleft 2021</p>
+					</div>
+				</section>
+			</section>
+		</section>
+
+
+	<!-- All the scripts -->
+
+	<script src="assets/js/jquery-2.1.3.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/script.js"></script>
+	
+</body>
+</html>
